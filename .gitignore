@@ -1,0 +1,8 @@
+node_modules
+jspm_packages
+public/javascripts
+public/stylesheets
+.DS_Store
+Thumbs.db
+.idea
+tmp
