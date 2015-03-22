@@ -8,7 +8,9 @@
 
     $ npm install
     $ jspm install
+    $ start a mongodb server on localhost
     $ gulp server
+    $ go to http://localhost:2424/
 
 ## Development
 
