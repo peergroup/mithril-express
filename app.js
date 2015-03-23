@@ -42,7 +42,7 @@ var Todo = app.todo = require('./routes/todos');
 Todo.register(app, '/api/todos');
 
 app.get('*', function(req, res) {
-    res.sendFile('./public/index.html');
+    res.sendFile(path.join(__dirname, './public/index.html'));
 });
 
 // catch 404 and forward to error handler
